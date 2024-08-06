@@ -1,9 +1,9 @@
 #profile {
-  margin-top: 70px;
+  margin-top: 128px;
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 64vh;
 }
 
 .section__pic-container {
@@ -108,8 +108,8 @@
 
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: 63vh;
+    margin-top: 24rem;
   }
 }
 
@@ -128,7 +128,7 @@
 
 @media screen and (max-width: 600px) {
   #profile {
-    height: 83vh;
+    height: 50vh;
     margin-bottom: 0;
   }
   article {

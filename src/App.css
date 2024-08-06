@@ -39,7 +39,7 @@ body.light-theme {
   box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.1);
 }
 
-.light-theme .nav__menu {
+.light-theme {
   background-color: hsla(var(--second-hue), 32%, 90%, 0.8);
 }
 
@@ -86,7 +86,7 @@ body.light-theme {
 }
 
 .container {
-  max-width: 968px;
+  max-width: 100%;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -100,6 +100,53 @@ body.light-theme {
   display: grid;
   gap: 1.25rem;
 }
+/* .scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
 
 @keyframes App-logo-spin {
   from {
@@ -108,7 +155,7 @@ body.light-theme {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 @media screen and (min-width: 992px) {
   .section {
@@ -132,7 +179,7 @@ body.light-theme {
   box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.1);
 }
 
-.light-theme .nav__menu {
+.light-theme {
   background-color: hsla(var(--second-hue), 32%, 90%, 0.8);
 }
 
